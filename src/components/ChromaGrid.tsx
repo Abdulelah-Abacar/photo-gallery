@@ -248,7 +248,7 @@ const ChromaGrid: React.FC<ChromaGridProps> = ({
               />
               <div className="relative z-10 flex-1 p-2.5 box-border">
                 <img
-                  src={`${api}${c.filename}`}
+                  src={c.filename}
                   alt={c.title}
                   loading="lazy"
                   className="w-full h-full object-cover rounded-[10px]"

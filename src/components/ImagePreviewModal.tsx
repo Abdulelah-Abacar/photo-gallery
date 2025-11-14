@@ -109,7 +109,7 @@ function ImagePreviewModal({
         </div>
         <div className="relative max-h-[60vh] aspect-auto z-10 flex-1 p-2.5 box-border">
           <img
-            src={imageUrl}
+            src={c.filename}
             alt={c.title}
             loading="lazy"
             className="w-full h-full object-cover rounded-[10px]"
