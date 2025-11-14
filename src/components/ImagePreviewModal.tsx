@@ -25,8 +25,6 @@ function ImagePreviewModal({
   onLike,
   photo: c,
 }: ImagePreviewModalProps) {
-  const imageUrl = `${import.meta.env.VITE_API_URL}/uploads/${c?.filename}`;
-
   const handleDownload = () => {
     // const link = document.createElement("a");
     // link.href = imageUrl;

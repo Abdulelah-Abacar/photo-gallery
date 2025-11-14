@@ -54,7 +54,6 @@ const ChromaGrid: React.FC<ChromaGridProps> = ({
   const pos = useRef({ x: 0, y: 0 });
   const { isAuthenticated: isAuth, user } = useAuth();
   const navigate = useNavigate();
-  const api = `${import.meta.env.VITE_API_URL}/uploads/`;
 
   const data = items?.length ? items : [];
 
